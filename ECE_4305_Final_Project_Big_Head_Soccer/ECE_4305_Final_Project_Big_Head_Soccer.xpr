@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2023.1 (64-bit)                              -->
+<!--                                                                         -->
+<!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
+<!-- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.   -->
+
+<Project Product="Vivado" Version="7" Minor="63" Path="C:/Users/mauri/Desktop/ECE/ECE_4305_Adv_Verilog/ECE_4305_Final_Project_Big_Head_Soccer/ECE_4305_Final_Project_Big_Head_Soccer.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="83eb90bd6636485689eb08048e02be15"/>
+    <Option Name="Part" Val="xc7a100tcsg324-1"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="CompiledLibDirXSim" Val=""/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirXcelium" Val="$PCACHEDIR/compile_simlib/xcelium"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="SimulatorInstallDirModelSim" Val=""/>
+    <Option Name="SimulatorInstallDirQuesta" Val=""/>
+    <Option Name="SimulatorInstallDirXcelium" Val=""/>
+    <Option Name="SimulatorInstallDirVCS" Val=""/>
+    <Option Name="SimulatorInstallDirRiviera" Val=""/>
+    <Option Name="SimulatorInstallDirActiveHdl" Val=""/>
+    <Option Name="SimulatorGccInstallDirModelSim" Val=""/>
+    <Option Name="SimulatorGccInstallDirQuesta" Val=""/>
+    <Option Name="SimulatorGccInstallDirXcelium" Val=""/>
+    <Option Name="SimulatorGccInstallDirVCS" Val=""/>
+    <Option Name="SimulatorGccInstallDirRiviera" Val=""/>
+    <Option Name="SimulatorGccInstallDirActiveHdl" Val=""/>
+    <Option Name="SimulatorVersionXsim" Val="2023.1"/>
+    <Option Name="SimulatorVersionModelSim" Val="2022.3"/>
+    <Option Name="SimulatorVersionQuesta" Val="2022.3"/>
+    <Option Name="SimulatorVersionXcelium" Val="22.09.001"/>
+    <Option Name="SimulatorVersionVCS" Val="T-2022.06-SP1"/>
+    <Option Name="SimulatorVersionRiviera" Val="2022.04"/>
+    <Option Name="SimulatorVersionActiveHdl" Val="13.1"/>
+    <Option Name="SimulatorGccVersionXsim" Val="9.3.0"/>
+    <Option Name="SimulatorGccVersionModelSim" Val="7.4.0"/>
+    <Option Name="SimulatorGccVersionQuesta" Val="7.4.0"/>
+    <Option Name="SimulatorGccVersionXcelium" Val="9.3.0"/>
+    <Option Name="SimulatorGccVersionVCS" Val="9.2.0"/>
+    <Option Name="SimulatorGccVersionRiviera" Val="9.3.0"/>
+    <Option Name="SimulatorGccVersionActiveHdl" Val="9.3.0"/>
+    <Option Name="BoardPart" Val="digilentinc.com:nexys-a7-100t:part0:1.2"/>
+    <Option Name="BoardPartRepoPaths" Val="$PPRDIR/../../../../AppData/Roaming/Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store"/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
+    <Option Name="IPDefaultOutputPath" Val="$PGENDIR/sources_1"/>
+    <Option Name="IPCachePermission" Val="read"/>
+    <Option Name="IPCachePermission" Val="write"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="EnableResourceEstimation" Val="FALSE"/>
+    <Option Name="SimCompileState" Val="TRUE"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
+    <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="DSABoardId" Val="nexys-a7-100t"/>
+    <Option Name="WTXSimLaunchSim" Val="0"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="0"/>
+    <Option Name="WTModelSimExportSim" Val="0"/>
+    <Option Name="WTQuestaExportSim" Val="0"/>
+    <Option Name="WTIesExportSim" Val="0"/>
+    <Option Name="WTVcsExportSim" Val="0"/>
+    <Option Name="WTRivieraExportSim" Val="0"/>
+    <Option Name="WTActivehdlExportSim" Val="0"/>
+    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
+    <Option Name="XSimRadix" Val="hex"/>
+    <Option Name="XSimTimeUnit" Val="ns"/>
+    <Option Name="XSimArrayDisplayLimit" Val="1024"/>
+    <Option Name="XSimTraceLimit" Val="65536"/>
+    <Option Name="SimTypes" Val="rtl"/>
+    <Option Name="SimTypes" Val="bfm"/>
+    <Option Name="SimTypes" Val="tlm"/>
+    <Option Name="SimTypes" Val="tlm_dpi"/>
+    <Option Name="MEMEnableMemoryMapGeneration" Val="TRUE"/>
+    <Option Name="DcpsUptoDate" Val="TRUE"/>
+    <Option Name="ClassicSocBoot" Val="FALSE"/>
+    <Option Name="LocalIPRepoLeafDirName" Val="ip_repo"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/ip/cpu/cpu.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/ip/cpu/cpu.xci"/>
+          <Attr Name="ImportTime" Val="1745724947"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/mmcm_fpro/mmcm_fpro.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/ip/mmcm_fpro/mmcm_fpro.xci"/>
+          <Attr Name="ImportTime" Val="1745724686"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/adsr.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/adsr.sv"/>
+          <Attr Name="ImportTime" Val="1743911833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/ball_ram_lut.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/ball_src.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/uart/baud_gen.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/uart/baud_gen.sv"/>
+          <Attr Name="ImportTime" Val="1743911835"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/bram_fifo_fpro.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/bram_fifo_fpro.sv"/>
+          <Attr Name="ImportTime" Val="1743911833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/chu_adsr_core.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/chu_adsr_core.sv"/>
+          <Attr Name="ImportTime" Val="1743911833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/chu_ddfs_core.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/chu_ddfs_core.sv"/>
+          <Attr Name="ImportTime" Val="1743911833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/chu_debounce_core.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/chu_debounce_core.sv"/>
+          <Attr Name="ImportTime" Val="1743911833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/chu_frame_buffer_core.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/chu_frame_buffer_core.sv"/>
+          <Attr Name="ImportTime" Val="1743911833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/chu_gpi.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/chu_gpi.sv"/>
+          <Attr Name="ImportTime" Val="1743911833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/chu_gpo.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/chu_gpo.sv"/>
+          <Attr Name="ImportTime" Val="1743911833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/chu_i2c_core.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/chu_i2c_core.sv"/>
+          <Attr Name="ImportTime" Val="1743911833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/chu_io_pwm_core.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/chu_io_pwm_core.sv"/>
+          <Attr Name="ImportTime" Val="1743911833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/chu_led_mux_core.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/chu_led_mux_core.sv"/>
+          <Attr Name="ImportTime" Val="1743911833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/chu_mcs_bridge.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/chu_mcs_bridge.sv"/>
+          <Attr Name="ImportTime" Val="1743911833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/chu_mmio_controller.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/chu_mmio_controller.sv"/>
+          <Attr Name="ImportTime" Val="1743911833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/chu_ps2_core.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/chu_ps2_core.sv"/>
+          <Attr Name="ImportTime" Val="1743911833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/chu_spi_core.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/chu_spi_core.sv"/>
+          <Attr Name="ImportTime" Val="1743911833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/chu_timer.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/chu_timer.sv"/>
+          <Attr Name="ImportTime" Val="1743911833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/uart/chu_uart.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/uart/chu_uart.sv"/>
+          <Attr Name="ImportTime" Val="1743911835"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/chu_vga_osd_core.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/chu_vga_osd_core.sv"/>
+          <Attr Name="ImportTime" Val="1743911834"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/chu_vga_sync_core.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/chu_vga_sync_core.sv"/>
+          <Attr Name="ImportTime" Val="1743911834"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/chu_video_controller.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/chu_video_controller.sv"/>
+          <Attr Name="ImportTime" Val="1743911834"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/chu_xadc_core.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/chu_xadc_core.sv"/>
+          <Attr Name="ImportTime" Val="1743911834"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/ddfs.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/ddfs.sv"/>
+          <Attr Name="ImportTime" Val="1743911834"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/debounce_counter.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/debounce_counter.sv"/>
+          <Attr Name="ImportTime" Val="1743911834"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/debounce_fsm.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/debounce_fsm.sv"/>
+          <Attr Name="ImportTime" Val="1743911834"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/ds_1bit_dac.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/ds_1bit_dac.sv"/>
+          <Attr Name="ImportTime" Val="1743911834"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/fifo/fifo.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/fifo/fifo.sv"/>
+          <Attr Name="ImportTime" Val="1743911835"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/fifo/fifo_ctrl.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/fifo/fifo_ctrl.sv"/>
+          <Attr Name="ImportTime" Val="1743911835"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/font_rom.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/font_rom.sv"/>
+          <Attr Name="ImportTime" Val="1746068929"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/frame_counter.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/frame_counter.sv"/>
+          <Attr Name="ImportTime" Val="1743911834"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/frame_palette.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/frame_palette.sv"/>
+          <Attr Name="ImportTime" Val="1743911834"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/frame_src.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/frame_src.sv"/>
+          <Attr Name="ImportTime" Val="1743911834"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/i2c_master.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/i2c_master.sv"/>
+          <Attr Name="ImportTime" Val="1743911834"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/led_mux8.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/led_mux8.sv"/>
+          <Attr Name="ImportTime" Val="1743911834"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/line_buffer.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/line_buffer.sv"/>
+          <Attr Name="ImportTime" Val="1743911834"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/chu_io_map.svh">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/chu_io_map.svh"/>
+          <Attr Name="ImportTime" Val="1743911833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+          <Attr Name="IsVisible" Val="1"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/mmio_sys_sampler.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/mmio_sys_sampler.sv"/>
+          <Attr Name="ImportTime" Val="1743911834"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/osd_src.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/osd_src.sv"/>
+          <Attr Name="ImportTime" Val="1743911834"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/player1_ram_lut.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/player1_src.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/player2_ram_lut.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/player2_src.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/ps2_top.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/ps2_top.sv"/>
+          <Attr Name="ImportTime" Val="1743911834"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/ps2rx.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/ps2rx.sv"/>
+          <Attr Name="ImportTime" Val="1743911835"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/ps2tx.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/ps2tx.sv"/>
+          <Attr Name="ImportTime" Val="1743911835"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/ram320K.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/ram320K.sv"/>
+          <Attr Name="ImportTime" Val="1743911835"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/fifo/reg_file.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/fifo/reg_file.sv"/>
+          <Attr Name="ImportTime" Val="1743911835"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/sin_rom.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/sin_rom.sv"/>
+          <Attr Name="ImportTime" Val="1746068994"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/spi.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/spi.sv"/>
+          <Attr Name="ImportTime" Val="1743911835"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/sync_rw_port_ram.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/sync_rw_port_ram.sv"/>
+          <Attr Name="ImportTime" Val="1743911835"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/uart/uart.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/uart/uart.sv"/>
+          <Attr Name="ImportTime" Val="1743911835"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/uart/uart_rx.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/uart/uart_rx.sv"/>
+          <Attr Name="ImportTime" Val="1743911835"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/uart/uart_tx.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/uart/uart_tx.sv"/>
+          <Attr Name="ImportTime" Val="1743911835"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/vga_sprite_ball_core.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/vga_sprite_player1_core.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/vga_sprite_player2_core.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/vga_sync.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/vga_sync.sv"/>
+          <Attr Name="ImportTime" Val="1743911835"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/video_sys_daisy.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/video_sys_daisy.sv"/>
+          <Attr Name="ImportTime" Val="1743911835"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/xadc_fpro.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/xadc_fpro.sv"/>
+          <Attr Name="ImportTime" Val="1743911835"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/HDL/mcs_top_complete.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/imports/HDL/mcs_top_complete.sv"/>
+          <Attr Name="ImportTime" Val="1743911834"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/new/font.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/new/font.mem"/>
+          <Attr Name="ImportTime" Val="1746068847"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/new/mouse_pointer.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/new/mouse_pointer.mem"/>
+          <Attr Name="ImportTime" Val="1746068861"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/new/ghost_bitmap.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/new/ghost_bitmap.mem"/>
+          <Attr Name="ImportTime" Val="1746068854"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/new/sin_table.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/sources_1/new/sin_table.mem"/>
+          <Attr Name="ImportTime" Val="1746068868"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="mcs_top_complete"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/imports/M15 to M18 - Complete System/Nexys4_DDR_chu.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Complete_fpro_system/Complete_fpro_system.srcs/constrs_1/imports/M15 to M18 - Complete System/Nexys4_DDR_chu.xdc"/>
+          <Attr Name="ImportTime" Val="1743911832"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="mcs_top_complete"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="PamDesignTestbench" Val=""/>
+        <Option Name="PamDutBypassFile" Val="xil_dut_bypass"/>
+        <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
+        <Option Name="PamPseudoTop" Val="pseudo_tb"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+      <Filter Type="Utils"/>
+      <Config>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+    <Simulator Name="ActiveHDL">
+      <Option Name="Description" Val="Active-HDL Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="20">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a100tcsg324-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" WriteIncrSynthDcp="false" State="current" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+  </Runs>
+  <Board>
+    <Jumpers/>
+  </Board>
+  <DashboardSummary Version="1" Minor="0">
+    <Dashboards>
+      <Dashboard Name="default_dashboard">
+        <Gadgets>
+          <Gadget Name="drc_1" Type="drc" Version="1" Row="2" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_drc_0 "/>
+          </Gadget>
+          <Gadget Name="methodology_1" Type="methodology" Version="1" Row="2" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_methodology_0 "/>
+          </Gadget>
+          <Gadget Name="power_1" Type="power" Version="1" Row="1" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_power_0 "/>
+          </Gadget>
+          <Gadget Name="timing_1" Type="timing" Version="1" Row="0" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_timing_summary_0 "/>
+          </Gadget>
+          <Gadget Name="utilization_1" Type="utilization" Version="1" Row="0" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="synth_1#synth_1_synth_report_utilization_0 "/>
+            <GadgetParam Name="RUN.STEP" Type="string" Value="synth_design"/>
+            <GadgetParam Name="RUN.TYPE" Type="string" Value="synthesis"/>
+          </Gadget>
+          <Gadget Name="utilization_2" Type="utilization" Version="1" Row="1" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_place_report_utilization_0 "/>
+          </Gadget>
+        </Gadgets>
+      </Dashboard>
+      <CurrentDashboard>default_dashboard</CurrentDashboard>
+    </Dashboards>
+  </DashboardSummary>
+</Project>
